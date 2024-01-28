@@ -1,0 +1,88 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+    width: 650px;
+  }
+  .gridOne{
+      display: grid;
+      grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+      grid-template-columns: 1fr 1fr;
+  }
+  .text-blue {
+      color:blue;
+  }
+  .gridTwo{
+      display: grid;
+      grid-template-rows: repeat(auto-fit, minmax(30px, 1fr));
+      grid-template-columns: 1fr 1fr 2fr;
+      margin-bottom: 30px;
+  }
+  .text1{
+      background-color:#af1010;
+  }
+  .text2{
+      background-color:#3218c4;
+  }
+  .text3{
+      background-color:#af9710;
+  }
+  .gridThree{
+      display: grid;
+      grid-template-rows: 1fr 3fr;
+      width: 500px;
+      height: 300px;
+  }
+     
+  .gridFour{
+      display:grid;
+      grid-template-rows: 1fr 1fr;
+      width: 500px;
+      height:100px;
+      background-color:#08531f;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+  }
+  .green-box-wrapper{
+      max-width: fit-content;
+      max-height: fit-content;
+  }
+  .bottom-text{
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      grid-column: 1/-1;
+  }
+  .gridFive-text{
+      margin-bottom: 200px;
+  }
+  .gridFive-images{
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      object-fit: cover;  
+      align-items: center;  
+  }
+  /*gridSix Styles*/
+  .gridSix{
+    display: grid;
+    grid-template-columns: 1r 3fr;
+
+  }
+  .grey-box-wrapper{
+     
+      background-color: #c1cec4;
+      width: 500px;
+      height: 100px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .gridSix-icon i{
+      font-family: 'Font AweSsome 5 free';
+      font-size: 1em;
+    
+  }
+  .gridSix-text{
+      font-family: 'Honk', system-ui;
+      font-size: 1.5em;
+      display: grid;
+      text-align: center;
+  }
